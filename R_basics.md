@@ -40,7 +40,7 @@ The actual computation is done by the language which is R, and the
 syntaxt of the language has to be followed regardless of whether you are
 typing your code in R studio or writing code for a standalone Rscript.
 Below is a screenshot showing the console of the Rstudio ![R
-studio](images/Rstudio_screenshot.png)
+studio](Rstudio_screenshot.png)
 
 As you can see your screen seems to be split into 3 sections across 2
 columns. The column on the left, also called as **Console** is the one
