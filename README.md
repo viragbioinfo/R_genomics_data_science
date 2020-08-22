@@ -16,4 +16,6 @@ As of now, the tutorials should be studied in the following sequence:
 4\. dataframes\_1  
 5\. dataframes\_2  
 6\. dataframes\_3  
-7\. lists
+7\. lists  
+8\. dplyr  
+9\. pipe\_operator
