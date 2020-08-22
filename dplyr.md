@@ -2,12 +2,13 @@ The dplyr package
 ================
 Virag Sharma
 
-In the tutorial on dataframes, we saw how to use the subset function to
-impose conditions on a dataframe and filter for only those rows/columns
-that fulfill our conditions i.e. pass the filters. I have to admit that
-I do not find the syntax extremely friendly and elegant and I guess I am
-not alone. To overcome these limitations, the R package dplyr was
-developed.
+In one of the tutorials on dataframes ([DATAFRAMES:
+Part 3](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/dataframes_3.md)),
+we saw how to use the subset function to impose conditions on a
+dataframe and filter for only those rows/columns that fulfill our
+conditions i.e. pass the filters. I have to admit that I do not find the
+syntax extremely friendly and elegant and I guess I am not alone. To
+overcome these limitations, the R package dplyr was developed.
 
 Note that dplyr is an external package. So you will need to install
 dplyr on your machine. It is possible that you already have dplyr on
@@ -467,11 +468,11 @@ sample_n(gulo_df, 5)
 ```
 
     ##        species status assembly_qual sequencing_year
-    ## 1        chimp  FALSE             0            2003
-    ## 2        horse   TRUE             1            2008
-    ## 3          cat   TRUE             0            2009
-    ## 4 kangaroo_rat   TRUE             1            2009
-    ## 5   guinea_pig  FALSE             1            2006
+    ## 1          cat   TRUE             0            2009
+    ## 2       rabbit   TRUE             1            2007
+    ## 3        chimp  FALSE             0            2003
+    ## 4        mouse   TRUE             1            2002
+    ## 5 kangaroo_rat   TRUE             1            2009
 
 In this case, the *sample\_n* function will return 5 rows randomly from
 your dataframe. *sample\_frac* allows you to retrieve a fraction of your
@@ -482,8 +483,8 @@ sample_frac(gulo_df, 0.25)
 ```
 
     ##   species status assembly_qual sequencing_year
-    ## 1   horse   TRUE             1            2008
-    ## 2   chimp  FALSE             0            2003
+    ## 1     cat   TRUE             0            2009
+    ## 2   mouse   TRUE             1            2002
 
 This brings us to the end of the tutorial on dplyr package. As you have
 seen, dplyr offers several functions to manipulate your dataframe and
