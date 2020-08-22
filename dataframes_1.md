@@ -42,18 +42,26 @@ my_first_df
     ## 3  3  C
     ## 4  4  D
 
-We have successfully created our first data-frame here Let us now try
-creating a matrix using the same vectors
+We have successfully created our first data-frame here.  
+Let us now try creating a matrix using the same vectors.
 
 ``` r
 my_test_matrix <- matrix(c(c1, c2), ncol = 2)
+my_test_matrix
 ```
+
+    ##      [,1] [,2]
+    ## [1,] "1"  "A" 
+    ## [2,] "2"  "B" 
+    ## [3,] "3"  "C" 
+    ## [4,] "4"  "D"
 
 As you can see, the **numeric nature of the elements** in the first
 column are **not preserved** and they are **changed to character**. This
 is what separates a data frame from a matrix and makes it a very popular
-data structure. **It can combine and hold different data-types together
-which is not possible with a matrix.**
+data structure.  
+**It can combine and hold different data-types together which is not
+possible with a matrix.**
 
 To give distinct names to the columns (also called as column headers)
 when creating a data-frame, one could do the following
