@@ -37,15 +37,16 @@ During this course, we will make use of RStudio. RStudio provides a nice
 interface to the R programming language. But please note that RStudio
 just provides a friendly interface to the R language and nothing more.
 The actual computation is done by the language which is R, and the
-syntaxt of the language has to be followed regardless of whether you are
+syntax of the language has to be followed regardless of whether you are
 typing your code in R studio or writing code for a standalone Rscript.
-Below is a screenshot showing the console of the Rstudio ![R
-studio](images/Rstudio_screenshot.png)
+Below is a screenshot showing the console of Rstudio
+
+![R studio](images/Rstudio_screenshot.png)
 
 As you can see your screen seems to be split into 3 sections across 2
-columns. The column on the left, also called as **Console** is the one
-we will be using to key in all R commands/code. We will make use of the
-other panels in due course.
+columns. The column on the left is called as the **Console** and is the
+one we will be using to key in all R commands/code. We will make use of
+the other panels in due course.
 
 ### R objects
 
@@ -62,7 +63,7 @@ x
 What we have done above is simply assing the numeric value 2 to x. But
 what exactly is x here? x is essentially some slot in the memory of your
 computer that holds this value. A more common notation that can be used
-in this case is simply addressing x as a variable.
+in this case is simply addressing x as a **variable.**
 
 While “x = 2” does the job, the R-specific way of object assignment
 makes use of the less-than symbol followed by a minus sign
@@ -82,7 +83,7 @@ x
 
 However, keep in mind that you have to be careful of these assignment
 operations. You could also easily overwrite this value and R would not
-even warn you of the re-assignment opertion you did
+even warn you of the re-assignment operation you did
 
 ``` r
 x
@@ -104,8 +105,9 @@ old value (2) to the new value (10), we did not get any warning.
 
 A quick note about how you name your objects. Some people prefer using
 short names for their objects (which may be useful but non-intuitive),
-some people prefer using camelcase (see examples), some use underscores
-and lastly some use dots in their variable name.  
+some people prefer using camelcase (also called as **camelCase** see
+examples), some use underscores (also called as snakecase or
+*snake\_case*) and lastly some use dots in their variable name.  
 This is essentially a matter of choice and while there are no strict
 recommendations, it is generally recommended that you use one naming
 convention and then stick to it throughout your code to ensure better
@@ -117,7 +119,7 @@ code
 g_length <- 100
 # using camelCase, this is fairly intuitive
 geneLength <- 100
-# using underscores, this is also fine
+# using snake_case, this is also fine
 gene_length <- 100
 # using dots, this is also fine
 gene.length <- 100
