@@ -12,7 +12,9 @@ panes/windows.
 ![R studio](images/RStudio_fresh.png)
 
 The one on the left is spread throughout the left column while there are
-2 panes on the right side of your screen.  
+2 panes on the right side of your screen. In matrix notation (since we
+are talking about R :) ), you could call this arrangement as a matrix
+with 2 columns – the second column further split into 2 rows.  
 The left pane is called the R-console and we will make use of it
 throughout this course. Basically, this is the place where you type in
 your code/commands.
@@ -31,7 +33,7 @@ any content there.
 
 **History Tab** - The History tab is empty as well.
 
-![R studio](images/RStudio_history.png)
+![R studio](images/RStudio_History.png)
 
 ### Environment
 
