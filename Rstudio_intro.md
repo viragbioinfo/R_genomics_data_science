@@ -9,7 +9,7 @@ to type your R-code but that is what RStudio is all about.
 If we open a fresh instance of RStudio, we normally see three
 panes/windows.
 
-![R studio](images/Rstudio_fresh.png)
+![R studio](images/RStudio_fresh.png)
 
 The one on the left is spread throughout the left column while there are
 2 panes on the right side of your screen.  
@@ -27,11 +27,11 @@ any content there.
 **Environment Tab** - You see a greyed message here stating that
 ‘Environment is empty’.
 
-![R studio](images/Rstudio_environment.png)
+![R studio](images/RStudio_environment.png)
 
 **History Tab** - The History tab is empty as well.
 
-![R studio](images/Rstudio_history.png)
+![R studio](images/RStudio_history.png)
 
 ### Environment
 
@@ -90,11 +90,11 @@ been installed
 
 We have normally seen that there are three panes/windows in RStudio but
 we can invoke a fourth pane by doing the following: ![R studio fourth
-panel](images/Rstudio_4thpanel.png)
+panel](images/RStudio_4thpanel.png)
 
 What does this do? As we can see, this invokes a fourth pane:
 
-![R studio fourth panel](images/Rstudio_4thpanel_Ready.png) At the
+![R studio fourth panel](images/RStudio_4thpanel_Ready.png) At the
 moment, this is called **Untitled1** but like you would do with any
 other application, say Word or Excel, you could save this as a file
 somewhere on your disk.  
@@ -115,3 +115,5 @@ script (that you wrote at some point before) in this pane. Now assuming
 that you need not run the entire workflow from the Rscript but only a
 few commands, you could copy these commands from your script and keep
 pasting them in the R-console until you are done.
+
+We will learn about working directory in the next tutorial.
