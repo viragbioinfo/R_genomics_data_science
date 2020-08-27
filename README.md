@@ -9,10 +9,12 @@ learning to different problems in genomics data science. The entire
 course is pretty much a work in progress and more tutorials will be
 added to this repo in the near future.
 
-As of now, the tutorials should be studied in the following sequence:
+As of now, the tutorials should be studied in the following
+    sequence:
 
-1.  [Basics of
-    R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/R_basics.md)  
+## R Basics
+
+1.  [Introduction](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/R_basics.md)  
 2.  [Getting started with
     RStudio](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/Rstudio_intro.md)  
 3.  [Vectors](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/vectors.md)  
@@ -32,3 +34,8 @@ As of now, the tutorials should be studied in the following sequence:
     operator](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/pipe_operator.md)  
 12. [Comparison and logical
     operators](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/logical_operators.md)
+
+## R Programming
+
+1.  [For loops in
+    R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/for_loops.md)
