@@ -39,5 +39,7 @@ As of now, the tutorials should be studied in the following
 
 1.  [If/Else statements in
     R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/if_else_statements.md)
-2.  [For loops in
+2.  [For loop in
     R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/for_loops.md)
+3.  [While loop in
+    R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/while.md)
