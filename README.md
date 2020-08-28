@@ -37,5 +37,7 @@ As of now, the tutorials should be studied in the following
 
 ## R Programming
 
-1.  [For loops in
+1.  [If/Else statements in
+    R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/if_else_statements.md)
+2.  [For loops in
     R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/for_loops.md)
