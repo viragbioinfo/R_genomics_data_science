@@ -32,7 +32,9 @@ As of now, the tutorials should be studied in the following
     package](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/dplyr.md)  
 11. [The pipe
     operator](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/pipe_operator.md)  
-12. [Comparison and logical
+12. [The tidyr
+    package](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/tidyr.md)  
+13. [Comparison and logical
     operators](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/logical_operators.md)
 
 ## R Programming
