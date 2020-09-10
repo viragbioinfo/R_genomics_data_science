@@ -49,3 +49,7 @@ As of now, the tutorials should be studied in the following
     statement](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/break.md)
 5.  [Functions in
     R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/functions.md)
+6.  [Apply family functions in
+    R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/apply_family.md)
+7.  [Anonymous functions in
+    R](https://github.com/viragbioinfo/R_genomics_data_science/blob/master/apply_family_anonymous.md)
